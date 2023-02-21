@@ -1,7 +1,88 @@
-body {
-  background-color: bisque;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.hello {
-  color: red;
+main {
+  background-color: whitesmoke;
+  width: 50%;
+  margin: 2rem auto;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  padding: 1rem;
+}
+
+.head {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  font-size: x-small;
+}
+
+hr {
+  width: 100%;
+  color: antiquewhite;
+}
+
+button {
+  background: whitesmoke;
+  border: none;
+}
+
+.head span {
+  font-size: medium;
+  background-color: whitesmoke;
+}
+
+form {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+.clear {
+  width: 100%;
+  text-align: center;
+  margin: 1rem;
+}
+
+.clear a {
+  color: darkgray;
+  text-decoration: none;
+  font-size: large;
+}
+
+#task {
+  width: 90%;
+  padding: 0.7rem;
+  font-size: large;
+  font-style: italic;
+}
+
+.container {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin: 0.5rem 1rem;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+.descripton {
+  margin-left: 1rem;
+}
+
+.task-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1rem auto;
 }
