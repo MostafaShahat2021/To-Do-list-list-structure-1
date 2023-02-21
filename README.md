@@ -7,7 +7,7 @@ built using webpack and served by a webpack dev server.
 
 ## Built With
 
-- webpack.
+- ★ webpack.
 - HTML(HTML-5).
 - CSS(Flexbox).
 - javaScript (ES6).
@@ -21,7 +21,7 @@ built using webpack and served by a webpack dev server.
   - completed.
   - index: [number].
 - function to iterate over the tasks array and populate an HTML list item element for each task.
-- Use webpack to bundle JavaScript.
+- ★ Use webpack to bundle JavaScript.
 - Use NPM.
 - Use webpack.
 - Use webpack-cli.
@@ -29,7 +29,7 @@ built using webpack and served by a webpack dev server.
 - Use style-loader.
 - Modify webpack.config.js
 - use HtmlWebpackPlugin.
-- Setup local dev server
+- ★ Setup local dev server
 - Add Linters for HTML/CSS.
 - Use best practices for HTML & CSS.
 - Update README file.
